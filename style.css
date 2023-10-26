@@ -1,9 +1,23 @@
 @charset 'utf-8';
 
-.header {
-    font-size: 3em;
+.header{
+    font-size: 5em;
 }
 
-.center {
+.center{
     text-align: center;
+}
+
+.f_ms{ /* monospace */
+    font-family: monospace;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.horizontal-line{ /* 水平線 */
+    background-color: gray;
+    height: 0.1em;
+    width: 100vw;
 }
