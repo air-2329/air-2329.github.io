@@ -1,0 +1,7 @@
+"jest": {
+    //この行を追加 正規表現は適切なもに変更
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/node_modules/jest-css-modules"
+    }
+}
+
